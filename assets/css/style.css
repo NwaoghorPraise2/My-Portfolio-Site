@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    --green-color: #044a10;
+    --black-color: #000;
+    --white-color: #f3fef5;
 }
 
 .html {
@@ -76,14 +78,35 @@ ul {
 .logo {
     
     width: 4.6rem;
-    color: #0000;
+    color: var(--black-color);
     
 
 }
 
 .logo-text, .nav-open {
 
-    color: black;
+    color: var(--black-color);
     font-weight: 600;
     transition: 0.3s;
+}
+
+.logo-text:hover, .nav-open:hover {
+
+    color: var(--green-color) ;
+
+}
+
+.nav-open {
+
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+
+    .main-nav {
+
+        position: fixed;
+    }
+    
 }
