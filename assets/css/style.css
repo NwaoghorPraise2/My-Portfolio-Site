@@ -1,17 +1,89 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    margin: 3rem 0 0 0;
+    font-size: .995rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*reusable classes*/
+.section {
+    padding: 4.5rem 0 2rem;
+
+}
+
+.section-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+
+}
+
+/*Layout ###################*/
+.container {
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+/*Header ####################*/
+.header {
+
+    width: 100%;
+    z-index: 9999;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: all 0.3s;
+
+}
+
+.nav {
+
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+}
 
 
+.logo {
+    
+    width: 4.6rem;
+    color: #0000;
+    
 
+}
 
+.logo-text, .nav-open {
 
-
-
-
-
-
-
-
-
-.logo{
-    height: 5rem;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
 }
