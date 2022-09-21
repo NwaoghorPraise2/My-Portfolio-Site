@@ -76,12 +76,10 @@ ul {
 
 
 .logo {
-    margin: 0;
+    
     padding: 0;
     width: 2.6rem;
     color: var(--black-color);
-    
-
 }
 
 .logo-text, .nav-open {
@@ -177,4 +175,11 @@ ul {
     height: 5px;
     background: var(--green-color);
     border-radius: 50px;
+}
+
+/*home section ####################*/
+
+.home-data {
+
+    
 }
