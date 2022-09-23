@@ -19,6 +19,7 @@ body {
     font-family: 'Source Serif Pro', serif;
     margin: 3rem 0 0 0;
     font-size: .995rem;
+    background-color: var(--white-color);
 
 }
 
@@ -186,5 +187,20 @@ ul {
     flex-direction: column;
     text-align: center;
     margin-top: 7rem;
-
 }
+
+.home-data h3 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: var(--green-color);
+    text-transform: uppercase;
+}
+
+.home-data h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.8rem;
+    text-transform: uppercase;
+}
+
+
