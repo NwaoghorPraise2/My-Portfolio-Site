@@ -76,7 +76,7 @@ ul {
 
 
 .logo {
-    
+    margin-top: 1.3rem;
     padding: 0;
     width: 2.6rem;
     color: var(--black-color);
@@ -180,6 +180,11 @@ ul {
 /*home section ####################*/
 
 .home-data {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 7rem;
 
-    
 }
