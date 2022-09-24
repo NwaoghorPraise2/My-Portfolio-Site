@@ -20,6 +20,8 @@ body {
     margin: 3rem 0 0 0;
     font-size: .995rem;
     background-color: var(--white-color);
+    background-image: url(/assets/images/bg-image.587ea85d.png);
+    background-size: cover;
 
 }
 
