@@ -22,6 +22,7 @@ body {
     background-color: var(--white-color);
     background-image: url(/assets/images/bg-image.587ea85d.png);
     background-size: cover;
+    background:cross-fade(122);
 
 }
 
