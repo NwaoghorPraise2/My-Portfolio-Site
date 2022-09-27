@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     --green-color: #044a10;
-    --black-color: #434343;
+    --black-color: #141414;
     --white-color: #f3fef5;
 }
 
@@ -20,6 +20,7 @@ body {
     margin: 3rem 0 0 0;
     font-size: .995rem;
     background-color: var(--white-color);
+    color: var(--black-color);
   
 }
 
@@ -42,6 +43,11 @@ ul {
     text-align: center;
     margin-bottom: 1.5rem;
     font-weight: 600;
+
+}
+
+.home, .services, .portfolio, .about, .contact {
+    height:100vh;
 
 }
 
@@ -202,5 +208,7 @@ ul {
     line-height: 3.8rem;
     text-transform: uppercase;
 }
+
+
 
 
