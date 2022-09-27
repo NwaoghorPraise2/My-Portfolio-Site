@@ -6,8 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     --green-color: #044a10;
-    --black-color: #141414;
-    --white-color: #f3fef5;
+    --black-color: #000;
+    --white-color: #fff;
 }
 
 .html {
@@ -83,7 +83,7 @@ ul {
 
 
 .logo {
-    margin-top: 1.3rem;
+    margin-top: .4rem;
     padding: 0;
     width: 2.6rem;
     color: var(--black-color);
@@ -184,6 +184,14 @@ ul {
     border-radius: 50px;
 }
 
+
+/*change header background color ##################*/
+.headerScroll {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    background: var(--white-color);
+}
+
+
 /*home section ####################*/
 
 .home-data {
@@ -196,10 +204,11 @@ ul {
 }
 
 .home-data h3 {
-    font-weight: 900;
+    font-weight: 500;
     margin-bottom: 1rem;
     color: var(--green-color);
     text-transform: uppercase;
+    font-size: 1.7rem;
 }
 
 .home-data h1 {
@@ -209,6 +218,51 @@ ul {
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 576px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .home-data h3 {
+        font-size: 1.9rem;
+    }
+
+    .home-data h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 767px) {
+    body{
+        margin: 0;
+    }
+
+    .section {
+        padding-top: 7rem;
+    }
+
+    .nav {
+        height: 4.5rem;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-left: 2.5rem;
+        margin-bottom: 0;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        color:var(--black-color);
+    }
+
+}
 
 
 

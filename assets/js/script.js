@@ -42,3 +42,12 @@ activeScroll = () => {
     });
 } 
 window.addEventListener('scroll', activeScroll);
+
+//Change Header Color On Scroll
+changeHeaderColor = () => {
+    const nav = document.getElementById('header');
+
+    if (this.scrollY >= 200) nav.classList.add("headerScroll"); else nav.classList.remove("headerScroll");
+}
+
+window.addEventListener("scroll", changeHeaderColor);
