@@ -208,13 +208,13 @@ ul {
     margin-bottom: 1rem;
     color: var(--green-color);
     text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .home-data h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 3.8rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.7rem;
     text-transform: uppercase;
 }
 
@@ -228,8 +228,8 @@ ul {
     }
 
     .home-data h1 {
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size: 2.7rem;
+        line-height: 3rem;
     }
     
 }
